@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khushboo's blog</title>
+
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Gluten:wght@600&display=swap" rel="stylesheet">
+<link rel="Stylesheet" href="css/Style.css">
+<style>
+    /* css reset */
+    body {
+        color: mintcream;
+        font-family: 'Gluten', cursive;
+        margin: 0px;
+        padding: 0px;
+        background: url('https://cdn.pixabay.com/photo/2017/01/20/00/30/maldives-1993704_960_720.jpg');
+        background-size:cover ;
+        background-attachment: fixed;
+        
+
+    }
+
+    .left {
+        display: inline-block;
+        /* border: 4px solid rgb(32, 190, 93); */
+        position: absolute;
+        left: 50px;
+        top: 20px;
+
+
+    }
+
+    .left img {
+display: block;
+        width: 55px;
+    }
+
+    .left div {
+        text-align: center;
+        line-height: 14px;
+        font-size: 20px;
+        margin: 2px;
+    }
+
+    .middle {
+        display: block;
+        width: 44%;
+        margin: 20px auto;
+        /* border: 2px solid rgb(173, 11, 173); */
+
+
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 30px;
+        display: inline-block;
+        /* border: 2px solid rgb(19, 216, 206); */
+
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        color: white;
+        font-size: 20px;
+
+    }
+
+    .navbar li a {
+        text-decoration: none;
+        color: white;
+        padding: 34px 4px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a:active {
+
+        text-decoration: underline;
+        color: rgb(216, 128, 27);
+
+    }
+
+    .btn {
+        font-family: 'Gluten', cursive;
+        margin: 0px 9px;
+        background-color: rgb(66, 22, 223);
+        color: white;
+        padding: 3px 4px;
+        border: solid tomato;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: violet;
+    }
+
+    .container {
+        border: 2px solid whitesmoke;
+        margin: 80px 80px;
+        width:33%;
+        padding: 25px;
+        border-radius: 25px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .form-group input{
+        font-family: 'Gluten', cursive;
+        font-size: 15px;
+        margin: 12px auto ;
+        text-align:center;
+        display: block;
+        width: 400px;
+        padding: 6px;
+        border: 2px solid grey;
+        border-radius: 15px;
+
+
+    }
+    .container h1{
+        text-align: center;
+    }
+    .container button{
+        display:block ;
+        text-align: center;
+        width: 23%;
+        margin: auto;
+    }
+    .container1{
+
+        background-color: rgb(197, 193, 195);
+            border: 3px solid rgb(146, 243, 146);
+            padding: 79px;
+            margin: 34px;
+            border-radius: 23px;
+            box-sizing: border-box;
+            background-image: url(https://source.unsplash.com/user/erondu/1600x900);
+            
+            
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!-- left box for logo  -->
+        <div class="left">
+            <img src="https://cdn.pixabay.com/photo/2016/12/05/03/56/travel-1883060_960_720.png" alt="">
+            <div>
+                Finding the universe
+            </div>
+
+
+
+        </div>
+        <!-- mid box for nav bar -->
+        <div class="middle">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Explore the world</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+
+
+        </div>
+        <!-- right box for buttons -->
+        <div class="right">
+            <button class="btn">
+
+                Search
+            </button>
+            <button class="btn">
+                Login
+            </button>
+
+
+        </div>
+
+
+    </header>
+    <div class="container">
+
+        <h1>Find the adventure of a lifetime!</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name">
+
+            </div>
+
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Destination">
+
+            </div>
+
+            <div class="form-group">
+                <input type="number" name="" placeholder="Enter your contact No.">
+
+            </div>
+
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender">
+
+            </div>
+            <button class="btn">Submit</button>
+
+        </form>
+    </div>
+    <div class="container1">
+        <h1>Welcome to my website!</h3>
+        <p id="first"> “Life is either a daring adventure or nothing at all”
+            </p>
+    </div>
+</body>
+
+</html>
